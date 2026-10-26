@@ -1,3 +1,7 @@
+To replace or add your own palettes to ALL , you'll have to modify ALL [Species]AnimalPreloading.pkg files. Modifying one only applies the new palettes to that animal, unfortunately.
+You need to modify only "animaleditordata_[species].xml" from "ui\data\" for each animal.
+And then repack again the [Species]AnimalPreloading.pkg
+
 Replace the default palettes:
     python woz_palettemod.py replace PaletteName.txt
 
