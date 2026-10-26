@@ -11,7 +11,7 @@ Options:
   --target "path\to\animaleditordata_.xml"      select a directory or the name of the file to edit
   --no-backup                                   no backup of the file is created on the directory
 
-CAREFUL: Whenever you edit an "animaleditordata_.xml" file, by default a backup is created in the same directory, so I'd recommend copying the first backup (original file) if you plan to change colors again in the future.
+CAREFUL: Whenever you directly edit an "animaleditordata_.xml" file, by default a backup is created in the same location, so I'd recommend getting a first backup of the original file, keeping it somewhere safe, and then continuing with --no-backup if you need to replace / add more.
 
 - Why "palette" and not just "colors"?:
 In-game, each page of the paintbox includes 8 colors, and I'm counting the pages as a palette, since they kinda have a theme going (e.g.: warm colors, greens, cold colors, purples)
