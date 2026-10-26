@@ -141,21 +141,21 @@ I guess you could play with **<SKUs>** if you converted the whole Wii folder and
 
 ---------------------------------------------------------------------------------------
 ## FAQ:
-*What kind of copy do I need?* <br/>
-Any. I can confirm that this works with the 2009 USA Multi-Language retail release and so it should work with any other region releases. It hasn't been tested with the Steam version, as I don't have it, yet it should work too!
+- *What kind of copy do I need?* <br/>
+Any. I can confirm that this works with the 2009 USA retail release and so it should work with any other region releases. The converted files haven't been tested with the Steam version, as I don't have it, yet it should work too!
 
-*What about the sound / audio files?* <br/>
+- *What about the sound / audio files?* <br/>
 At least on the retail release, they've been there all this time on all copies since 2009, and they do work as-is!
 
-*There are some lines that enable debugging but nothing happens!* <br/>
+- *There are some lines that enable debugging but nothing happens!* <br/>
 Sadly, it seems that all the code that would've made them work got completely removed when the game was released. There are some traces in WozRetail.exe, pointing that it did have an included debugger / crash handler, and also the logger was seemingly called *BFlog*.<br/>
 The game's original demo is an older version than the retail game BUT it doesn't have any other traces or leftovers that can restore this content in any form. They knew very well what they were doing.
 ...But you're still welcome to try seeing if I'm wrong!
 
-*What does PatchCFG do then?* <br/>
+- *What does PatchCFG do then?* <br/>
 Not much. I always believed it would be used to implement the missing animals IF they had been released, and now I think I was kinda right. It edits StartPC.cfg but apparently only on request. It was possibly shipped with the game so that one day, when the pressumed expansion released, they called it up with a command to edit the StartPC.cfg and add the other exhibits and the OG intro (which I did myself on the mod I uploaded).
 
-*Hey, you used AI! YOU SHOULD BE ASHAMED, IT'S BAD!* <br/>
+- *Hey, you used AI! YOU SHOULD BE ASHAMED, IT'S BAD!* <br/>
 Yes, I'm aware. Yes, I know it's bad / corporate evil. Yes, it is horribly ironic that these scripts for an animal game could've contributed to global warming and destruction of habitats. And I deeply disagree with things going this way.<br/>
 <br/>
 That's why I beg of you as well to **PLEASE DONATE**. Donate to your local shelter or animal welfare program in the area even if you can't send funds to the more well-known organizations. Animals can't ask for help, they just can run from all that's happening around them.
