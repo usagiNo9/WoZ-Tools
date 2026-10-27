@@ -1,4 +1,6 @@
 # WoZ-Tools
+<img width="1280" height="128" alt="image" src="https://github.com/user-attachments/assets/1ddd0c44-6858-4d36-9262-b2da54b5cc90" />
+
 A collection of Python scripts useful for extracting, repacking, and replacing World of Zoo files. With the purpose of opening a new world of modding for the 2009 game.
 
 This project was coded with Claude Sonnet 5.5; BUT throroughly tested, supervised, and requested by a human. I also wrote by hand this readme and set up the Github page myself.
