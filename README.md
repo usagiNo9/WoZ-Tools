@@ -1,6 +1,8 @@
 # WoZ-Tools
 A collection of Python scripts useful for extracting, repacking, and replacing World of Zoo files. With the purpose of opening a new world of modding for the 2009 game.
 
+This project was coded with Claude Sonnet 5.5; BUT throroughly tested, supervised, and requested by a human. I also wrote by hand this readme and set up the Github page myself.
+
 ---------------------------------------------------------------------------------------
 ### Requirements & How-to:
 An entire copy of Wii version's 00_Retail folder, and the original PC game. Python3 required at most. Each script contains comments on how to use them, still, copying these here to make things easier.<br />
