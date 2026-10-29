@@ -129,21 +129,21 @@ Main use:
 ```
 *Commands:*
 ```
-info MaskName.rlet           								applies the Penguin's nursery MOPP bypass fix
+info MaskName.rlet           					list file information of the .rlet mask
 sheet Package.pkg  OUTimg.png [--cols 12] [--thumb 128]		contact sheet of all masks + OUT.txt (which is which)
-to-png MaskName.rlet										.rlet in, PNG out (folders are searched recursively)
-to-png INFolder  OUTFolder									.rlet in, PNG out; converts entire folder
-from-png   image.png										PNG in, .rlet out (PC little-endian unless --wii)
-from-png   INFolder  OUTFolder								PNG in, .rlet out; converts entire folder
-pkg-export Package.pkg  OUTFolder							every .rlet of a package as a PNG, same folder layout
-pkg-import Package.pkg  IMGFolder OUTFolder					put edited images back
+to-png MaskName.rlet						.rlet in, PNG out (folders are searched recursively)
+to-png INFolder  OUTFolder					.rlet in, PNG out; converts entire folder
+from-png   image.png						PNG in, .rlet out (PC little-endian unless --wii)
+from-png   INFolder  OUTFolder					PNG in, .rlet out; converts entire folder
+pkg-export Package.pkg  OUTFolder				every .rlet of a package as a PNG, same folder layout
+pkg-import Package.pkg  IMGFolder OUTFolder			put edited images back
 ```
 *Options:*
 ```
---wii           		only with from-png command; converts the file to Big-Endian
---tag NAME				append name to the file, so as to distinguish converted from originals
---cols 12				only with sheet; how many masks fit in one row of the sheet
---thumb 128				only with sheet; size in pixels of each mask's square cell (e.g.: 512x512 original masks reduced to 128x128)
+--wii			only with from-png command; converts the file to Big-Endian
+--tag NAME		append name to the file, so as to distinguish converted from originals
+--cols 12		only with sheet; how many masks fit in one row of the sheet
+--thumb 128		only with sheet; size in pixels of each mask's square cell (e.g.: 512x512 original masks reduced to 128x128)
 ```
 
 ---------------------------------------------------------------------------------------
